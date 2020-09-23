@@ -19,3 +19,21 @@ litters_df = janitor::clean_names(litters_df)
 
 
 ## Take a look at the data
+
+Printing in the console. 
+
+```{r}
+litters_df
+```
+
+```{r}
+skimr::skim(litters_df)
+```
+
+
+## Options to read_csv
+
+Check out '?read_csv()' for more information
+
+
+
